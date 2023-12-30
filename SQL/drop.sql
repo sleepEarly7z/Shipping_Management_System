@@ -1,0 +1,18 @@
+ALTER TABLE Product_take DROP CONSTRAINT fk_cid;
+ALTER TABLE Order_Table DROP CONSTRAINT fk_tracking;
+drop table CurrentOrder;
+drop table Tracking_ship_Deliverer_has_TrackInfo;
+drop table Order_Table;
+drop table TrackingInfo;
+drop table Deliverer;
+drop table Supply;
+drop table Increase;
+drop table BackOrder;
+drop table Supplier;
+drop table belongs;
+drop table Product_take;
+drop table Stock_have;
+drop table Category;
+drop table DBAdministrator_has;
+drop table Control;
+drop table Account;
